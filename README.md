@@ -49,13 +49,6 @@ node --no-warnings run_demo.js
 ```
 *(Or with Python: `py run_demo.py`)*
 
-### Option 2: MySQL Workbench / MySQL 8.0+
-Run the scripts in `sql/mysql/` in order:
-1. [`sql/mysql/01_schema.sql`](sql/mysql/01_schema.sql) — creates `smart_fitness_db` and all 7 tables
-2. [`sql/mysql/02_seed_data.sql`](sql/mysql/02_seed_data.sql) — inserts realistic sample records
-3. [`sql/mysql/03_triggers_views_procedures.sql`](sql/mysql/03_triggers_views_procedures.sql) — creates triggers, views, and stored procedures
-4. [`sql/mysql/04_reports_queries.sql`](sql/mysql/04_reports_queries.sql) — runs all report queries and `CALL sp_payment_receipt(5);`
-
 ---
 
 ## Documentation
